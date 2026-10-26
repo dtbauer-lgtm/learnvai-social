@@ -33,7 +33,7 @@ body{font-family:Inter;background:#101A2F;color:#fff;position:relative}
  box-shadow:0 30px 70px rgba(0,0,0,.5),0 0 0 6px rgba(255,255,255,.07);border:2px solid #E3E7EF}
 .front{background:#fff}.back{background:#EDF0F7}
 .lbl{font-size:28px;font-weight:700;letter-spacing:3px;color:#5B6478}
-.word{margin-top:26px;font-size:${w.word.length > 14 ? 88 : 112}px;font-weight:800;letter-spacing:-3px;color:#101A2F;line-height:1.05}
+.word{margin-top:26px;font-size:${w.word.length > 15 ? 80 : w.word.length > 11 ? 96 : 112}px;font-weight:800;letter-spacing:-3px;color:#101A2F;line-height:1.05}
 .pos{margin-top:22px;font-size:30px;font-weight:600;color:#7F8BA3;font-style:italic}
 .ex{margin-top:44px;padding-top:36px;border-top:2px solid #D6DCE7;width:100%}
 .ex .t{font-size:36px;font-weight:700;color:#101A2F;line-height:1.3}
